@@ -1,0 +1,23 @@
+import{_ as a,c as n,o as e,ae as p}from"./chunks/framework.Bu3pZnTe.js";const u=JSON.parse('{"title":"命令","description":"","frontmatter":{},"headers":[],"relativePath":"docs/handbook/command/command.md","filePath":"docs/handbook/command/command.md","lastUpdated":1739171098000}'),l={name:"docs/handbook/command/command.md"};function i(t,s,r,c,d,o){return e(),n("div",null,s[0]||(s[0]=[p(`<h1 id="命令" tabindex="-1">命令 <a class="header-anchor" href="#命令" aria-label="Permalink to &quot;命令&quot;">​</a></h1><h2 id="tree" tabindex="-1">tree <a class="header-anchor" href="#tree" aria-label="Permalink to &quot;tree&quot;">​</a></h2><div class="vp-code-group vp-adaptive-theme"><div class="tabs"><input type="radio" name="group-Q1dFD" id="tab-rw342Uu" checked><label data-title="shell" for="tab-rw342Uu">shell</label><input type="radio" name="group-Q1dFD" id="tab-tl1FLyV"><label data-title="参数说明" for="tab-tl1FLyV">参数说明</label></div><div class="blocks"><div class="language-shell vp-adaptive-theme active line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang">shell</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">tree</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -help</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># 打印当前项目的文件树</span></span>
+<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">tree</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> -I</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> &quot;node_modules|.vscode|cypress|.github&quot;</span><span style="--shiki-light:#D73A49;--shiki-dark:#F97583;"> &gt;</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> tree.txt</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><div class="language-text vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>-a 显示所有文件和目录。</span></span>
+<span class="line"><span>-A 使用ASNI绘图字符显示树状图而非以ASCII字符组合。</span></span>
+<span class="line"><span>-C 在文件和目录清单加上色彩，便于区分各种类型。</span></span>
+<span class="line"><span>-d 显示目录名称而非内容。</span></span>
+<span class="line"><span>-D 列出文件或目录的更改时间。</span></span>
+<span class="line"><span>-f 在每个文件或目录之前，显示完整的相对路径名称。</span></span>
+<span class="line"><span>-F 在执行文件，目录，Socket，符号连接，管道名称名称，各自加上&quot;*&quot;,&quot;/&quot;,&quot;=&quot;,&quot;@&quot;,&quot;|&quot;号。</span></span>
+<span class="line"><span>-g 列出文件或目录的所属群组名称，没有对应的名称时，则显示群组识别码。</span></span>
+<span class="line"><span>-i 不以阶梯状列出文件或目录名称。</span></span>
+<span class="line"><span>-I 不显示符合范本样式的文件或目录名称。</span></span>
+<span class="line"><span>-l 如遇到性质为符号连接的目录，直接列出该连接所指向的原始目录。</span></span>
+<span class="line"><span>-n 不在文件和目录清单加上色彩。</span></span>
+<span class="line"><span>-N 直接列出文件和目录名称，包括控制字符。</span></span>
+<span class="line"><span>-p 列出权限标示。</span></span>
+<span class="line"><span>-P 只显示符合范本样式的文件或目录名称。</span></span>
+<span class="line"><span>-q 用&quot;?&quot;号取代控制字符，列出文件和目录名称。</span></span>
+<span class="line"><span>-s 列出文件或目录大小。</span></span>
+<span class="line"><span>-t 用文件和目录的更改时间排序。</span></span>
+<span class="line"><span>-u 列出文件或目录的拥有者名称，没有对应的名称时，则显示用户识别码。</span></span>
+<span class="line"><span>-x 将范围局限在现行的文件系统中，若指定目录下的某些子目录，其存放于另一个文件系统上，则将该子目录予以排除在寻找范围外。</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br></div></div></div></div>`,3)]))}const h=a(l,[["render",i]]);export{u as __pageData,h as default};
